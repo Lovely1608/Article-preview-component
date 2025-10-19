@@ -68,7 +68,7 @@ body {
   justify-content: center;
   margin-top: 1rem;
   gap: 5.2rem;
-  margin-top: -2rem;
+  margin-top: 0rem;
   /* display: none; */
 }
 
@@ -102,8 +102,8 @@ button {
 
 /* share link for share btn */
 footer {
-  max-width: 100%;
-  height: 3rem;
+  width: 24rem;
+  height: 4rem;
   background-color: var(--color1);
   display: flex;
   justify-content: center;
@@ -111,6 +111,8 @@ footer {
   border-radius: 0rem 0rem 1rem 1rem;
   gap: 1rem;
   opacity: 0;
+  margin-left: -2rem;
+  margin-bottom: -2rem;
 }
 
 footer > button {
@@ -146,7 +148,7 @@ i {
     justify-content: center;
     align-items: center;
     background-color: var(--color5);
-    max-width: 50rem;
+    max-width: 58rem;
   }
 
   .container > img {
@@ -162,5 +164,7 @@ i {
 
   .footer {
     padding-top: 2rem;
+    gap: 6rem;
   }
+
 }
