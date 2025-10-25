@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Lovely1608/Article-preview-component.git)
+- Live Site URL: [https://lovely1608.github.io/Article-preview-component/)
 
 ## My process
 ## My Process
@@ -76,7 +76,7 @@ I am still not fluent with the js's uses with logic and css
 
 ## Author
 
-- Frontend Mentor - [Lovely](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Lovely](https://www.frontendmentor.io/profile/lovely)
 
 ## Acknowledgments
 AI, fireshot, frontend mentor and google for helpin me with this project .
