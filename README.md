@@ -76,7 +76,7 @@ I am still not fluent with the js's uses with logic and css
 
 ## Author
 
-- Frontend Mentor - [Lovely](https://www.frontendmentor.io/profile/lovely)
+- Frontend Mentor - [Lovely](https://www.frontendmentor.io/profile/@Lovely1608)
 
 ## Acknowledgments
 AI, fireshot, frontend mentor and google for helpin me with this project .
