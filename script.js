@@ -1,23 +1,20 @@
-const shareBtn = document.getElementById("icon");
-const linkBtn = document.getElementById("share");
+const shareIcon = document.querySelector("#icon");
 
-shareBtn.addEventListener("click", shareFunc);
-function shareFunc(link, profile) {
-  link = document.getElementById("shareLink");
-  profile = document.getElementById("footer");
-  
-  
-  profile.style.opacity = "0";
-  link.style.opacity = "1";
-};
 
-linkBtn.addEventListener("click", profilefunc);
+shareIcon.addEventListener("click", (shareLink) => {
+  shareLink = document.querySelector(".share_link");
+  if (shareLink.style.opacity === "0") { 
+    shareLink.style.opacity = "1"
+    shareLink.style. pointerEvents =  "auto";
+    
+    // shareLink.style.display = "block";  //it is cuasing CLS shift not good for performance
+      //when want to use display's other property use them in js to make them work
+  } else {
+    
+    shareLink.style.opacity = "0"
+    shareLink.style. pointerEvents =  "none";
 
-function profilefunc(link, profile) {
-  link = document.getElementById("shareLink");
-  profile = document.getElementById("footer");
-  
+    // shareLink.style.display = "none";
+  }
 
-  link.style.opacity = "0";
-  profile.style.opacity = "1";
-}
+});
